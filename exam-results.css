@@ -1,0 +1,37 @@
+body {
+    margin: 20px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+
+table,
+td,
+tr,
+th {
+    border: 1px solid #000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    font-size: 24px;
+}
+
+td {
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.result {
+    width: 400px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+td[class="result"] {
+    font-size: 20px;
+}
